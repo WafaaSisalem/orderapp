@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:order_app/screens/about_screen.dart';
+import 'package:order_app/screens/help_screen.dart';
 import 'package:order_app/screens/host_page.dart';
 import 'package:order_app/screens/your_order_screen.dart';
 
@@ -24,6 +26,6 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: HostPage());
+        home: HelpScreen());
   }
 }
